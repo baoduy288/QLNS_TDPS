@@ -1,0 +1,169 @@
+﻿@model QLNS_TDPS.Models.NhanVien
+
+@{
+    ViewBag.Title = "DetailNhanVien";
+}
+@section header {
+    Chi tiết nhân viên    
+}
+
+<div>
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.HoLotNV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HoLotNV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TenNV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenNV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GioiTinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GioiTinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NgaySinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NgaySinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NoiSinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NoiSinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ThuongTru)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ThuongTru)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TamTru)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TamTru)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DienThoai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DienThoai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DienThoaiDD)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DienThoaiDD)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SoCMND)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SoCMND)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NgayCapCMND)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NgayCapCMND)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NoiCapCMND)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NoiCapCMND)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NguyenQuan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NguyenQuan)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TinhTrangHonNhan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TinhTrangHonNhan)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.QuocTich)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QuocTich)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MaDanToc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaDanToc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MaTonGiao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaTonGiao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MaTo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaTo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MaNgach)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaNgach)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MaNV }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
